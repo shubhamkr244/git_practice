@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Example</title>
+</head>
+<body>
+    <h1>student Registration Form</h1>
+
+    <l-- Text Input -->
+        <label for="name">Enter the Name:</label>
+        <input type="text" id="name" name="name" required>
+    <br><br>
+
+    <l-- Password -->
+        <label for="password">Enter the Password:</label>
+        <input type="password" id="password" name="password" required>
+    <br><br>
+
+    <l-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    <br><br>
+    
+    <l-- Radio Buttons -->
+        <p>Gender:</p>
+        input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="redio"id="female" name="gender"value="female">
+        <label for="female">Female</label>
+
+        <input type="radio"id="other" name="gender"value="other">
+        <label for="other">Other</label>
+    <br><br>
+
+    <l-- checkbox -->
+        <p>languages Known:</p>
+        <input type="checkbox" id="english" name="language" value="english">
+        <label for="english">English</label>
+
+        <input type="checkbox" id="hindi" name="language" value="hindi">
+        <label for="hindi">Hindi</label>
+
+        <input type="checkbox" id="punjabi" name="language" value="punjabi">
+        <label for="punjabi">Punjabi</label>
+     <br><br>
+
+    <l-- Dropdown -->
+        <label for="country">Select your country:</label>
+        <select id="country" name="country" required>
+            <option value="">--Select--</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="canada">Canada</option>
+            <option value="iran">Iran</option>
+        </select>
+     <br><br>
+
+     <l-- Dropdown -->
+        <label for="state">Select your state:</label>
+        <select id="state" name="state" required>
+            <option value="">--Select--</option>
+            <option value="bihar">Bihar</option>
+            <option value="punjab">Punjab</option>
+            <option value="haryana">Haryana</option>
+            <option value="rajasthan">Rajasthan</option>
+            <option value="gujarat">Gujarat</option>
+        </select>
+        <br><br>
+
+        <l-- Dropdown -->
+            <label for="course">Select your course:</label>
+            <select id="course" name="course" required>
+                <option value="">--Select--</option>
+                <option value="cse">CSE - Computer Science</option>
+                <option value="it">IT - Information Technology</option>
+                <option value="mech">Mechanical Engineering</option>
+                <option value="civil">Civil Engineering</option>
+            </select>
+            <br><br> 
+    
+</body>
+</html>
